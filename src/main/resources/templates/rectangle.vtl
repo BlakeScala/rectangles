@@ -1,0 +1,13 @@
+<h1> Your rectangle! </h1>
+
+<p> Your length is $rectangle.getLength(); </p>
+<p> Your width is $rectangle.getWidth(); </p>
+
+#if ($rectangle.isSquare())
+  <p> That's a square, too! </p>
+  <p> Surface area of a cube with those dimensions: $cube.surfaceArea()</p>
+  <p> Volume of a cube with those dimensions:
+  $cube.volume()</p>
+#else
+  <p> That's only a rectangle, not a square! </p>
+#end
